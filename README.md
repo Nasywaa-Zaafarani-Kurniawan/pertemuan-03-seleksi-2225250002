@@ -27,13 +27,12 @@ Repositori ini dibuat untuk memenuhi tugas praktikum Pertemuan 3 mata kuliah Alg
 
 ## Hasil Pengujian Tugas Utama (`analisis_persamaan_kuadrat.py`)
 
-| Kasus | Input Koefisien (a, b, c) | Diskriminan (D) | Hasil / Jenis Akar | Status |
-| :---: | :--- | :---: | :--- | :---: |
-| 1 | a = 0, b = 2, c = 4 | - | Bukan persamaan kuadrat. | Sesuai |
-| 2 | a = 1, b = -5, c = 6 | 1.00 | Memiliki dua akar real berbeda:<br>x1 = 3.00, x2 = 2.00 | Sesuai |
-| 3 | a = 1, b = -4, c = 4 | 0.00 | Memiliki satu akar real kembar:<br>x = 2.00 | Sesuai |
-| 4 | a = 1, b = 2, c = 5 | -16.00 | Tidak memiliki akar real. | Sesuai |
-
+| a | b | c | D | Hasil yang Diharapkan | Status |
+| :-: | :-: | :-: | :-: | :--- | :-: |
+| 1 | -5 | 6 | 1 | Dua akar real: 3 dan 2 | Sesuai |
+| 1 | 2 | 1 | 0 | Akar kembar: -1 | Sesuai |
+| 1 | 0 | 1 | -4 | Tidak ada akar real | Sesuai |
+| 0 | 2 | 3 | - | Bukan persamaan kuadrat | Sesuai |
 ---
 
 ## Cara Menjalankan
@@ -46,7 +45,7 @@ python latihan/01_genap_ganjil.py
 python latihan/02_bandingkan_dua_bilangan.py
 python latihan/03_kelulusan_bersyarat.py
 python latihan/04_jenis_segitiga.py
-'''
+```
 
 ### Refleksi
 Dalam praktikum Pertemuan 3 ini, saya mempelajari penggunaan operator perbandingan (==, !=, >, >=, <, <=), operator aritmatika modulus, serta pentingnya ketelitian dalam penulisan operator pada struktur keputusan.
